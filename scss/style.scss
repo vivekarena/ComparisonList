@@ -1,0 +1,86 @@
+body {
+    font-family: "Overpass", sans-serif;
+}
+.slateBlue
+{
+    background-color:#1e3557;
+    padding-bottom:15px;
+    padding-top:10px;
+    select
+    {
+        border: none;
+        color:#fff;
+        font-size:12px;
+        background-color:transparent;
+        padding-left:0px;
+    }
+    .fas
+    {
+        color:#fff;
+        font-size:12px;
+    }
+
+    .carModel
+    {
+        background-color:#fff;
+        height:98px;
+        width:100%;    
+        border-radius:10px;
+        margin-top:10px;
+        img
+        {
+            border-radius:10px 0px 0px 10px;
+            float:left;
+            margin-right:15px;
+        }
+        .ModelName
+        {
+            color:#262626;
+            font-size:14px;
+            font-weight: bold;
+            padding-top:12px;
+            span
+            {
+                img
+                {
+                    float:right;
+                }
+               
+            }
+        }
+        .priceLabel
+        {
+            color:#848484;
+            font-size:12px;
+            font-weight: normal;
+            padding-top:20px;
+        }
+        .ModelPrice
+        {
+            color:#262626;
+            font-size:12px;
+            font-weight: bold;
+            padding-top:0px;
+        }
+    }
+    .vs
+    {
+        text-align: center;
+        color:#fff;
+        font-size: 12px;
+        margin-top:10px;
+        margin-bottom:2px;
+        font-weight: bold;
+    }
+    .ShowComparisonBtn
+    {
+        width:100%;
+        height: auto;
+        font-size: 13px;
+        color:#fff;
+        text-align: center;
+        padding:9px;    
+        background-color: #e63a46;
+        margin-top:24px;
+    }
+}

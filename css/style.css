@@ -1,0 +1,82 @@
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+.slateBlue {
+  background-color: #1e3557;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.slateBlue select {
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  background-color: transparent;
+  padding-left: 0px;
+}
+
+.slateBlue .fas {
+  color: #fff;
+  font-size: 12px;
+}
+
+.slateBlue .carModel {
+  background-color: #fff;
+  height: 98px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.slateBlue .carModel img {
+  border-radius: 10px 0px 0px 10px;
+  float: left;
+  margin-right: 15px;
+}
+
+.slateBlue .carModel .ModelName {
+  color: #262626;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 12px;
+}
+
+.slateBlue .carModel .ModelName span img {
+  float: right;
+}
+
+.slateBlue .carModel .priceLabel {
+  color: #848484;
+  font-size: 12px;
+  font-weight: normal;
+  padding-top: 20px;
+}
+
+.slateBlue .carModel .ModelPrice {
+  color: #262626;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 0px;
+}
+
+.slateBlue .vs {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.slateBlue .ShowComparisonBtn {
+  width: 100%;
+  height: auto;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  padding: 9px;
+  background-color: #e63a46;
+  margin-top: 24px;
+}
+/*# sourceMappingURL=style.css.map */
